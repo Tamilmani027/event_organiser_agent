@@ -1,10 +1,10 @@
 
-# 🎉 Multi-Agent Event Planning & Organising System  
+# Multi-Agent Event Planning & Organising System  
 ### _Automated Event Planner using Google ADK + Python Multi-Agent Architecture_
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project is an **AI-powered multi-agent event planning system** built using the **Google Agent Development Kit (ADK)** and a modular **Planner → Worker → Evaluator** architecture.
 
@@ -26,7 +26,7 @@ This project replaces the manual, stressful process of event planning with a ful
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Event planning involves multiple tasks such as budgeting, logistics, decor design, vendor coordination, scheduling, and risk handling.  
 Most organizers—especially students—struggle to organize these components efficiently, leading to:
@@ -40,7 +40,7 @@ Most organizers—especially students—struggle to organize these components ef
 
 ---
 
-## 🤖 Why Multi-Agent Architecture?
+## Why Multi-Agent Architecture?
 
 Event planning naturally breaks into independent tasks:
 
@@ -62,7 +62,7 @@ This makes agents **the ideal solution** for complex, multi-step tasks like even
 
 ---
 
-## 🧠 What I Created (Architecture)
+## What I Created (Architecture)
 
 ### **High-Level Flow**
 _User prompt → Planner Agent → Worker Agents → Evaluator Agent → Final Plan_
@@ -80,7 +80,7 @@ _User prompt → Planner Agent → Worker Agents → Evaluator Agent → Final P
 
 ---
 
-## 🏗 Architecture Diagram
+## Architecture Diagram
 
 ```
 
@@ -115,7 +115,7 @@ _User prompt → Planner Agent → Worker Agents → Evaluator Agent → Final P
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 
@@ -137,11 +137,11 @@ event_organiser_agent/
 
 ---
 
-## 🚀 Demo Output (Example)
+## Demo Output (Example)
 
 ```
 
-🎉 EVENT PLAN SUMMARY
+EVENT PLAN SUMMARY
 
 1️⃣ Event Overview
 
@@ -188,7 +188,7 @@ event_organiser_agent/
 
 ---
 
-## 🛠 Tech Stack Used
+## Tech Stack Used
 
 ### **Core:**
 - Python 3  
@@ -208,7 +208,7 @@ event_organiser_agent/
 
 ---
 
-## 🏛 How I Built It
+## How I Built It
 
 1. Designed the architecture using Planner/Worker/Evaluator pattern  
 2. Created individual agents: Theme, Budget, Logistics, Vendors, etc.  
@@ -220,7 +220,7 @@ event_organiser_agent/
 
 ---
 
-## 🧪 Testing Scenarios
+## Testing Scenarios
 
 Example test queries:
 
@@ -231,7 +231,7 @@ Example test queries:
 
 ---
 
-## 🚧 Future Enhancements (If I Had More Time)
+## Future Enhancements (If I Had More Time)
 
 - Add **Streamlit/Gradio UI** for user-friendly event planning  
 - Export event plan as **PDF**  
@@ -243,13 +243,3 @@ Example test queries:
 
 ---
 
-## 📎 GitHub Repository
-
-🔗 **https://github.com/Tamilmani027/event_organiser_agent**
-
----
-
-## 📜 License
-MIT License (or choose your preferred license)
-
----
